@@ -32,9 +32,9 @@ export default function OpenToWork() {
             >
               <div className="p-6">
                 <div className="text-sm opacity-80">Knock, knock…</div>
-                <div className="mt-2 text-lg font-semibold">Who’s there?</div>
-                <div className="mt-1">Mandar. Mandar who?</div>
-                <div className="mt-2">Mandar who’s <span className="accent-text font-semibold">open to work</span> — let’s talk!</div>
+                <div className="mt-2 text-lg font-semibold">Who's there?</div>
+                <div className="mt-1">Hi. Hi who?</div>
+                <div className="mt-2">Hi there! I'm <span className="accent-text font-semibold">Mandar</span> - a developer who loves building amazing things!</div>
                 <div className="mt-5 flex justify-end gap-2">
                   <button className="rounded-lg px-3 py-2 border border-white/20 hover:bg-white/10" onClick={() => setOpen(false)}>Close</button>
                   <a href="mailto:mvp23402@gmail.com" className="btn-primary">Say Hi</a>
