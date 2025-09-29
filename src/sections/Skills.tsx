@@ -114,7 +114,18 @@ export default function Skills() {
             <p className="text-xs opacity-80">OOPs, Data Structures & Algorithms, Web Development, C++, Python React, Node.js, MongoDB & SQL</p>
           </div>
         </div>
-        <div onMouseEnter={() => setIsBubbleHovered(true)} onMouseLeave={() => setIsBubbleHovered(false)}>
+        
+        {/* Mobile: Simple floating pills */}
+        <div className="md:hidden">
+          <div className="relative h-64 w-full">
+            {all.map((label, i) => (
+              <FloatingPill key={label} label={label} delay={i * 0.12} isHovered={true} />
+            ))}
+          </div>
+        </div>
+        
+        {/* Desktop: Interactive bubble */}
+        <div className="hidden md:block" onMouseEnter={() => setIsBubbleHovered(true)} onMouseLeave={() => setIsBubbleHovered(false)}>
           <Bubble>
             {all.map((label, i) => (
               <FloatingPill key={label} label={label} delay={i * 0.12} isHovered={isBubbleHovered} />
