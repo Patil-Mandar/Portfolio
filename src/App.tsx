@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link as ScrollLink, Element } from 'react-scroll'
 import { motion } from 'framer-motion'
+import { Analytics } from '@vercel/analytics/react';
 import './index.css'
 import Hero3D from './components/Hero3D'
 import ParticlesBg from './components/ParticlesBg'
@@ -125,6 +126,7 @@ export default function App() {
         <Element name="contact" id="contact"><Contact /></Element>
       </main>
       <footer className="container-max py-10 text-sm opacity-70">© {new Date().getFullYear()} Mandar Vijay Patil</footer>
+      <Analytics />
     </div>
   )
 }
