@@ -3,11 +3,11 @@ import { motion } from 'framer-motion'
 
 const testimonials = [
   {
-    name: 'Anthony Martin',
-    title: 'Principal Software Engineer Manager · Microsoft',
-    quote: 'Your changes are efficient and easy to review!',
-    source: 'PR review comment',
-    avatar: 'https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg',
+    name: 'Harendra Chhekur',
+    title: 'Project Lead · TalenBox Labs',
+    quote: "Mandar was really good at backend development, specifically fundamentals and basics. He is pretty quick in figuring out solutions, once he gets the problem he comes up the solution pretty quickly. It was awesome working with him.",
+    source: 'LinkedIn',
+    avatar: 'https://media.licdn.com/dms/image/v2/C4D03AQFHWbzTv7XC9g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1593336821666?e=1761782400&v=beta&t=vv1LXazzT8f8FwgQKoUqGIXMRxNLlobpsVn_g33PXHY',
   },
   {
     name: 'Karan Singh',
@@ -24,12 +24,19 @@ const testimonials = [
     avatar: 'https://media.licdn.com/dms/image/v2/D5603AQHyioA5MqoU-A/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1693818031568?e=1761782400&v=beta&t=7PX04Ws-8l9uOGMXr_pbLQu5XuASytuxR8__U20h4eU',
   },
   {
-    name: 'Harendra Chhekur',
-    title: 'Project Lead · TalenBox Labs',
-    quote: "Mandar was really good at backend development, specifically fundamentals and basics. He is pretty quick in figuring out solutions, once he gets the problem he comes up the solution pretty quickly. It was awesome working with him.",
-    source: 'LinkedIn',
-    avatar: 'https://media.licdn.com/dms/image/v2/C4D03AQFHWbzTv7XC9g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1593336821666?e=1761782400&v=beta&t=vv1LXazzT8f8FwgQKoUqGIXMRxNLlobpsVn_g33PXHY',
+    name: 'Anthony Martin',
+    title: 'Principal Software Engineer Manager · Microsoft',
+    quote: 'Your changes are efficient and easy to review!',
+    source: 'PR review comment',
+    avatar: 'https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg',
   },
+  {
+    name: 'Inka Strotmann',
+    title: 'Product Manager · Monotype',
+    quote: "I worked with Mandar in my role as Product Manager at Monotype, where he is part of our agile Scrum team building features for a B2B platform. He contributed across backend and frontend and was a driving force behind developing our first AI tool for customers. His curiosity, problem-solving skills, and sharp questions consistently helped us discover better solutions. What stood out most for me was his reliability. He always delivered, was proactive in product discovery and refinement, and raised ideas that made our features stronger. That rare mix of curiosity and dependability makes him an exceptional team member. Any company looking for a developer with full-stack skills, AI experience, and the ability to thrive in agile environments will find Mandar a great asset.",
+    source: 'LinkedIn',
+    avatar: 'https://media.licdn.com/dms/image/v2/D4E03AQEBIVLaxHBU7w/profile-displayphoto-scale_100_100/B4EZl7.MYrKoAc-/0/1758721531945?e=1762387200&v=beta&t=10hzJl5d59XHpxzxc4n_uXFeiNVHNvwlu38hIG5L-J0',
+  }
 ]
 
 export default function Testimonials() {
